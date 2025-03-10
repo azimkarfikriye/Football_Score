@@ -64,6 +64,19 @@ body, html {
     background-color: white !important;
     color: black !important;
 }
+@media (max-width: 768px) {
+    .football-container {
+        flex-direction: column; 
+        gap: 10px; 
+        height: auto; 
+        padding: 20px 0; 
+    }
+
+    .reset-button-container {
+        margin-top: 10px; 
+        order: 3; 
+    }
+}
 
 
 
